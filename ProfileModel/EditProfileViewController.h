@@ -1,13 +1,13 @@
 //
-//  ProfileModel.m
+//  EditProfileViewController.h
 //  ProfileModel
 //
 //  Created by MGM on 2018/3/24.
 //  Copyright © 2018年 unko. All rights reserved.
 //
 
-#import "ProfileModel.h"
+#import <UIKit/UIKit.h>
 
-@implementation ProfileModel
+@interface EditProfileViewController : UIViewController
 
 @end

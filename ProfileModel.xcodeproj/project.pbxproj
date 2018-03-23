@@ -15,6 +15,11 @@
 		FC9E8C5E20656DAF00E19095 /* ProfileModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9E8C5D20656DAF00E19095 /* ProfileModelTests.m */; };
 		FC9E8C6920656DAF00E19095 /* ProfileModelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9E8C6820656DAF00E19095 /* ProfileModelUITests.m */; };
 		FC9E8C7820656F8300E19095 /* ProfileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9E8C7720656F8300E19095 /* ProfileModel.m */; };
+		FC9E8C7B206573E700E19095 /* EditProfileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9E8C7A206573E700E19095 /* EditProfileModel.m */; };
+		FC9E8C852065790500E19095 /* EditProfileInputTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9E8C7F2065790500E19095 /* EditProfileInputTVCell.m */; };
+		FC9E8C862065790500E19095 /* EditProfileInputTFCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9E8C802065790500E19095 /* EditProfileInputTFCell.m */; };
+		FC9E8C872065790500E19095 /* EditProfileHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9E8C822065790500E19095 /* EditProfileHeaderCell.m */; };
+		FC9E8C8A20657A5800E19095 /* EditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9E8C8920657A5800E19095 /* EditProfileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +57,17 @@
 		FC9E8C6A20656DAF00E19095 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC9E8C7620656F8300E19095 /* ProfileModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileModel.h; sourceTree = "<group>"; };
 		FC9E8C7720656F8300E19095 /* ProfileModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileModel.m; sourceTree = "<group>"; };
+		FC9E8C79206573E700E19095 /* EditProfileModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditProfileModel.h; sourceTree = "<group>"; };
+		FC9E8C7A206573E700E19095 /* EditProfileModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditProfileModel.m; sourceTree = "<group>"; };
+		FC9E8C7C2065764300E19095 /* ProfileItemType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileItemType.h; sourceTree = "<group>"; };
+		FC9E8C7F2065790500E19095 /* EditProfileInputTVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProfileInputTVCell.m; sourceTree = "<group>"; };
+		FC9E8C802065790500E19095 /* EditProfileInputTFCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProfileInputTFCell.m; sourceTree = "<group>"; };
+		FC9E8C812065790500E19095 /* EditProfileInputTFCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditProfileInputTFCell.h; sourceTree = "<group>"; };
+		FC9E8C822065790500E19095 /* EditProfileHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProfileHeaderCell.m; sourceTree = "<group>"; };
+		FC9E8C832065790500E19095 /* EditProfileInputTVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditProfileInputTVCell.h; sourceTree = "<group>"; };
+		FC9E8C842065790500E19095 /* EditProfileHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditProfileHeaderCell.h; sourceTree = "<group>"; };
+		FC9E8C8820657A5800E19095 /* EditProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditProfileViewController.h; sourceTree = "<group>"; };
+		FC9E8C8920657A5800E19095 /* EditProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditProfileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +126,10 @@
 				FC9E8C4F20656DAF00E19095 /* LaunchScreen.storyboard */,
 				FC9E8C5220656DAF00E19095 /* Info.plist */,
 				FC9E8C5320656DAF00E19095 /* main.m */,
-				FC9E8C7620656F8300E19095 /* ProfileModel.h */,
-				FC9E8C7720656F8300E19095 /* ProfileModel.m */,
+				FC9E8C8820657A5800E19095 /* EditProfileViewController.h */,
+				FC9E8C8920657A5800E19095 /* EditProfileViewController.m */,
+				FC9E8C7E206578C700E19095 /* Model */,
+				FC9E8C7D206578BE00E19095 /* Cell */,
 			);
 			path = ProfileModel;
 			sourceTree = "<group>";
@@ -132,6 +150,31 @@
 				FC9E8C6A20656DAF00E19095 /* Info.plist */,
 			);
 			path = ProfileModelUITests;
+			sourceTree = "<group>";
+		};
+		FC9E8C7D206578BE00E19095 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FC9E8C842065790500E19095 /* EditProfileHeaderCell.h */,
+				FC9E8C822065790500E19095 /* EditProfileHeaderCell.m */,
+				FC9E8C812065790500E19095 /* EditProfileInputTFCell.h */,
+				FC9E8C802065790500E19095 /* EditProfileInputTFCell.m */,
+				FC9E8C832065790500E19095 /* EditProfileInputTVCell.h */,
+				FC9E8C7F2065790500E19095 /* EditProfileInputTVCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		FC9E8C7E206578C700E19095 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FC9E8C7620656F8300E19095 /* ProfileModel.h */,
+				FC9E8C7720656F8300E19095 /* ProfileModel.m */,
+				FC9E8C79206573E700E19095 /* EditProfileModel.h */,
+				FC9E8C7A206573E700E19095 /* EditProfileModel.m */,
+				FC9E8C7C2065764300E19095 /* ProfileItemType.h */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,9 +309,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC9E8C7B206573E700E19095 /* EditProfileModel.m in Sources */,
 				FC9E8C4920656DAF00E19095 /* ViewController.m in Sources */,
+				FC9E8C872065790500E19095 /* EditProfileHeaderCell.m in Sources */,
+				FC9E8C852065790500E19095 /* EditProfileInputTVCell.m in Sources */,
 				FC9E8C5420656DAF00E19095 /* main.m in Sources */,
+				FC9E8C8A20657A5800E19095 /* EditProfileViewController.m in Sources */,
 				FC9E8C4620656DAF00E19095 /* AppDelegate.m in Sources */,
+				FC9E8C862065790500E19095 /* EditProfileInputTFCell.m in Sources */,
 				FC9E8C7820656F8300E19095 /* ProfileModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,7 +475,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D4B8JDZJT6;
 				INFOPLIST_FILE = ProfileModel/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.unko.ProfileModel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,7 +490,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D4B8JDZJT6;
 				INFOPLIST_FILE = ProfileModel/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.unko.ProfileModel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
